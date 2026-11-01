@@ -1,0 +1,674 @@
+{
+    "spawnWeight": 1,
+    "name": "Civilian - Mosin",
+    "characterTypes": [
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "Mosin9130",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PUScopeOptic",
+                            "attributes": {
+                                "healthMin": 0.9,
+                                "healthMax": 0.9,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "WoodAxe",
+                    "spawnWeight": 2,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2
+                },
+                {
+                    "itemType": "FarmingHoe",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 0.8
+                    },
+                    "quickBarSlot": 2
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "LinenVest_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": []
+                },
+                {
+                    "itemType": "RobeVest_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": []
+                },
+                {
+                    "itemType": "LinenVest_NavyBlue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": []
+                },
+                {
+                    "itemType": "RobeVest_Navy",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "LeatherSack_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Ammo_762x54",
+                        "Ammo_762x54"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "GPSReceiver",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "PersonalRadio",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemType": "LeatherSack_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Ammo_762x54",
+                        "Ammo_762x54"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "GPSReceiver",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "PersonalRadio",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemType": "LeatherSack_Natural",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.8,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": true,
+                    "simpleChildrenTypes": [
+                        "Ammo_762x54",
+                        "Ammo_762x54"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "GPSReceiver",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "PersonalRadio",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "TurbanHat_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "PakolHat_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "Armband_SSahrani",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Armband_NSahrani",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "LeatherBelt_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "LeatherKnifeSheath",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Jambiya"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "LeatherGloves_Natural",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "LeatherGloves_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "Keffiyeh_LightBrown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Keffiyeh_LightRed",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "AviatorGlasses",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "DesignerGlasses",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "KameezShirt_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "AmmoBox_762x54_20Rnd"
+                    ]
+                },
+                {
+                    "itemType": "KameezShirt_NavyBlue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "AmmoBox_762x54_20Rnd"
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "MensShalwarPants_NavyBlue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "MensShalwarPants_SkyBlue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "TraditionalSandalShoes_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TraditionalSandalShoes_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TraditionalSandalShoes_LightBrown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+        {
+            "name": "Cargo1",
+            "spawnWeight": 1,
+            "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+            },
+            "complexChildrenTypes": [
+                {
+                    "itemType": "BandageDressing",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 3
+                },
+                {
+                    "itemType": "Flashlight",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": true,
+                    "simpleChildrenTypes": [
+                        "Battery9V"
+                    ]
+                },
+                {
+                    "itemType": "Figs",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Lassi_Mango",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TetracyclineAntibiotics",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 40,
+                        "quantityMax": 50
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "ChernarusMap",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 7
+                },
+                {
+                    "itemType": "Compass",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 6
+                },
+                {
+                    "itemType": "FNX45",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 4,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Mag_FNX45_15Rnd"
+                    ]
+                }
+            ],
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+                "BandageDressing",
+                "HalvaCan",
+                "HalvaCan",
+                "MorsecodeLeaflet_coffee",
+                "Waterskin_Natural",
+                "PurificationTablets",
+                "AmmoBox_45ACP_25rnd",
+                "PistolSuppressor"
+            ]
+        }
+    ]
+}
